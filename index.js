@@ -6,7 +6,6 @@ function initCounter() {
     };
 
     if (window.fetch) {
-        debugger;
         const originalFetch = window.fetch;
 
         window.fetch = function(url, options) {
