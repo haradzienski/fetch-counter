@@ -1,6 +1,6 @@
 {
   "name": "fetch-counter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple wrapper for Fetch API fetch method, that counts number of active fetch requests.",
   "main": "index.js",
   "repository": "https://github.com/haradzienski/fetch-counter",
