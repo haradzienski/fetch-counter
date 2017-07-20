@@ -10,7 +10,7 @@ function initCounter() {
 
         window.fetch = function(url, options) {
             const originalFetchPromise = originalFetch(url, options);
-            window.activeFetchCalls--;
+            window.activeFetchCalls++;
             originalFetchPromise.then(done, done);
             return originalFetchPromise;
         }
